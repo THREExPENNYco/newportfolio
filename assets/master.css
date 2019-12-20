@@ -1,5 +1,5 @@
 body {
-  background: url("background.png") center fixed;
+  background: url("background.png") repeat fixed center;
   margin: 0;
 }
 
@@ -98,7 +98,7 @@ hr {
 .email:hover,
 #work-page-name-desc:hover {
   opacity: 50%;
-  color: red; 
+  color: red;
 }
 
 #footer {
@@ -148,7 +148,7 @@ hr {
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     padding: 10px;
-    max-width: 433px;
+    max-width: 325px;
     margin-top: 5px;
   }
 
@@ -156,23 +156,22 @@ hr {
     text-align: center;
   }
 
-  .linkedin-github { 
+  .linkedin-github {
     display: flex;
     justify-content: center;
   }
 
-  .github { 
-      margin-right: 5px;
+  .github {
+    margin-right: 5px;
   }
-  
 
   hr {
     max-width: 85%;
   }
 
   .logo {
-    max-height: 55%;
-    max-width: 55%;
+    max-height: 75%;
+    max-width: 75%;
   }
 }
 
@@ -197,7 +196,12 @@ hr {
   }
 }
 
+@media (max-width: 500px) { 
+    .self-description { 
+        font-size: 12px;
+    }
+}
+
 .logo {
   animation: fadeIn 1.5s;
 }
-
