@@ -1,0 +1,203 @@
+body {
+  background: url("background.png") center fixed;
+  margin: 0;
+}
+
+.navbar {
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+  max-height: 1px;
+}
+
+.navbar-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar:hover {
+  background: red;
+  max-height: 50px;
+}
+
+.navbar:hover .navbar-link:hover {
+  color: black;
+}
+
+.splash {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 175px;
+  margin-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name-description {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  animation: fadeIn 1.5s;
+}
+
+.dev-description {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  animation: fadeIn 1.5s;
+}
+
+.self-description {
+  text-align: justify;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+  animation: fadeIn 1.5s;
+}
+
+.github {
+  animation: fadeIn 1.5s;
+}
+
+.linkedin {
+  animation: fadeIn 1.5s;
+}
+
+.email {
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  animation: fadeIn 1.5s;
+}
+
+.project-picture {
+  float: right;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+hr {
+  border-color: red;
+}
+
+.github:hover,
+.linkedin:hover,
+.email:hover,
+#work-page-name-desc:hover {
+  opacity: 50%;
+  color: red; 
+}
+
+#footer {
+  display: none;
+}
+
+.work {
+  background: #ffffff;
+  color: black;
+  border-radius: 30px 30px 0 0;
+  box-shadow: -3px -3px 3px 0 black;
+  display: flex;
+  align-items: stretch;
+}
+
+@media (max-width: 1370px) {
+  .splash {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .name-description {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .dev-description {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .self-description {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    max-width: 433px;
+    margin-top: 5px;
+  }
+
+  .email {
+    text-align: center;
+  }
+
+  .linkedin-github { 
+    display: flex;
+    justify-content: center;
+  }
+
+  .github { 
+      margin-right: 5px;
+  }
+  
+
+  hr {
+    max-width: 85%;
+  }
+
+  .logo {
+    max-height: 55%;
+    max-width: 55%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  65% {
+    opacity: 65%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.logo {
+  animation: fadeIn 1.5s;
+}
+
