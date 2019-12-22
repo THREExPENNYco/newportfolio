@@ -1,5 +1,6 @@
 body {
-  background: url("background.png") repeat fixed center;
+  background: url("background.png") no-repeat fixed;
+  background-size: cover;
   margin: 0;
   animation: fadeIn 1.5s;
 }
