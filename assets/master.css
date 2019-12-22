@@ -3,6 +3,9 @@ body {
   margin: 0;
 }
 
+.footer { 
+  margin-top: 50px; 
+}
 .navbar {
   height: 40px;
   font-size: 18px;
@@ -18,7 +21,8 @@ body {
   text-decoration: none;
   margin-top: 10px;
   font-family: "Quicksand", sans-serif;
-  margin-right: 14px; 
+  margin-right: 10px; 
+  padding: 0;
 }
 
 .navbar:hover {
@@ -141,10 +145,12 @@ hr {
     margin-bottom: 0;
     font-style: italic;
     text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   .self-description {
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
@@ -205,4 +211,9 @@ hr {
 
 .logo {
   animation: fadeIn 1.5s;
+}
+
+
+.logo #work-page {
+  box-shadow: 2px 2px 5px #ffffff;
 }
