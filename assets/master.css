@@ -1,11 +1,11 @@
 body {
-  background: url("background.png") repeat fixed center ;
+  background: url("background.png") repeat fixed center;
   margin: 0;
   animation: fadeIn 1.5s;
 }
 
-.footer { 
-  margin-top: 50px; 
+.footer {
+  margin-top: 50px;
 }
 .navbar {
   height: 40px;
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
   margin-top: 10px;
   font-family: "Quicksand", sans-serif;
-  margin-right: 10px; 
+  margin-right: 10px;
   padding: 0;
 }
 
@@ -46,7 +46,7 @@ a {
   text-decoration: none;
 }
 
-.name-description {
+.top-description {
   color: #ffffff;
   font-size: 60px;
   font-family: "Quicksand", sans-serif;
@@ -54,7 +54,7 @@ a {
   margin-bottom: 0;
 }
 
-.dev-description {
+.middle-description {
   color: #ffffff;
   font-size: 60px;
   font-family: "Quicksand", sans-serif;
@@ -64,7 +64,7 @@ a {
   font-style: italic;
 }
 
-.self-description {
+.bottom-description {
   text-align: justify;
   color: #ffffff;
   font-family: "Quicksand", sans-serif;
@@ -72,13 +72,7 @@ a {
   max-width: 500px;
 }
 
-.github {
-}
-
-.linkedin {
-}
-
-.email {
+.link {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
 }
@@ -122,7 +116,7 @@ hr {
     margin-top: 80px;
   }
 
-  .name-description {
+  .top-description {
     color: #ffffff;
     font-size: 35px;
     font-family: "Quicksand", sans-serif;
@@ -198,15 +192,11 @@ hr {
   }
 }
 
-@media (max-width: 500px) { 
-    .self-description { 
-        font-size: 12px;
-    }
+@media (max-width: 500px) {
+  .self-description {
+    font-size: 12px;
+  }
 }
-
-.logo {
-}
-
 
 .logo #work-page {
   box-shadow: 2px 2px 5px #ffffff;
