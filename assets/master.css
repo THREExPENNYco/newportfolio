@@ -1,6 +1,7 @@
 body {
-  background: #212426 ;
+  background: url("background.png") repeat fixed center ;
   margin: 0;
+  animation: fadeIn 1.5s;
 }
 
 .footer { 
@@ -51,7 +52,6 @@ a {
   font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
   margin-bottom: 0;
-  animation: fadeIn 1.5s;
 }
 
 .dev-description {
@@ -62,7 +62,6 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   font-style: italic;
-  animation: fadeIn 1.5s;
 }
 
 .self-description {
@@ -71,21 +70,17 @@ a {
   font-family: "Quicksand", sans-serif;
   font-size: 15px;
   max-width: 500px;
-  animation: fadeIn 1.5s;
 }
 
 .github {
-  animation: fadeIn 1.5s;
 }
 
 .linkedin {
-  animation: fadeIn 1.5s;
 }
 
 .email {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
-  animation: fadeIn 1.5s;
 }
 
 .project-picture {
@@ -210,7 +205,6 @@ hr {
 }
 
 .logo {
-  animation: fadeIn 1.5s;
 }
 
 
