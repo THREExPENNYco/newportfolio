@@ -77,19 +77,13 @@ a {
   color: #ffffff;
 }
 
-.project-picture {
-  float: right;
-  max-width: 200px;
-  min-width: 200px;
-}
-
 hr {
   border-color: red;
 }
 
 .github:hover,
 .linkedin:hover,
-.email:hover,
+.link:hover,
 #work-page-name-desc:hover {
   opacity: 50%;
   color: red;
@@ -125,7 +119,7 @@ hr {
     margin-top: 50px;
   }
 
-  .dev-description {
+  .middle-description {
     color: #ffffff;
     font-size: 35px;
     font-family: "Quicksand", sans-serif;
@@ -138,7 +132,7 @@ hr {
     letter-spacing: 1px;
   }
 
-  .self-description {
+  .bottom-description {
     text-align: justify;
     color: #ffffff;
     font-family: "Quicksand", sans-serif;
@@ -148,7 +142,7 @@ hr {
     margin-top: 5px;
   }
 
-  .email {
+  .link {
     text-align: center;
   }
 
@@ -165,7 +159,7 @@ hr {
     max-width: 85%;
   }
 
-  .logo {
+  .picture {
     max-height: 75%;
     max-width: 75%;
   }
@@ -198,6 +192,6 @@ hr {
   }
 }
 
-.logo #work-page {
+.picture #work-page {
   box-shadow: 2px 2px 5px #ffffff;
 }
