@@ -8,6 +8,12 @@ body {
 .footer {
   margin-top: 50px;
 }
+
+.description { 
+  max-height: 530px;
+  max-width: 436px;
+}
+
 .navbar {
   height: 40px;
   font-size: 18px;
@@ -57,7 +63,7 @@ a {
 
 .middle-description {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 45px;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
   margin-top: 0;
